@@ -1,5 +1,6 @@
 #welcome{
-    font-size: 30px;
+    font-size: 25px;
+    text-transform: uppercase;
 }
 body{
     margin: 0;
@@ -8,31 +9,36 @@ body{
 }
 h1{
     margin: 0;
-    font-family: 'Gabarito', sans-serif;
-    font-weight: 600;
-    color: azure;
+    font-family: 'Cinzel Decorative', serif;
+    font-weight: 900;
+    color:aliceblue;
     font-size: 60px;
     line-height: 100px;
     margin-left: 25px;
 }
 
 h4{
-    font-family: 'Fjalla One', sans-serif;
-    color: rgb(255, 255, 255);
-    font-weight: 650;
-    text-transform: uppercase;
+    font-family: 'Forum', serif;
+    color: #012619;
+    font-weight: 400;
+    text-transform:initial;
     margin-left: 25px;
     margin-top: 20px;
     margin-bottom: 0;
-    font-size: 18xpx
+    font-size: 20px
+}
+
+#text{
+    color: #012619;  
 }
 /* main bulk of text  */
 p{
-    margin-left: 20px;
+    margin-left: 25px;
     margin-right: 20px;
     margin-bottom: 0;
     margin-bottom: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 17px;
     font-weight: 200;
     font-size: 14px;
     column-count: 2;
@@ -41,15 +47,16 @@ p{
 /* hyperlinks resting state  */
 a{
     text-decoration: none;
-    color: blue;
+    color: #40593F;
+    align-items: center;
 }
 /* hyperlinks hoverstate  */
 a:hover{
-    color: black;
+    color: rgb(14, 197, 53);
 }
 /* hyperlinks pressed state */
 a:active{
-    color: black;
+    color:rgb(14, 197, 53);
     text-decoration: none;
 }
 /* hyperlinks within text  */
@@ -60,29 +67,28 @@ a p{
 }
 /* hyperlinks within text hoverstate  */
 a p:hover{
-    background-color: azure;
+    background-color:#012619;
+    height: 20px;
 }
 /* hyperlinks within text pressed state  */
 a p:active{
-background-color: blueviolet;
+color: #012619;
+background-color:rgb(14, 197, 53);
 }
-
 #container{
     width: 800px;
     height: auto;
-    /* ../ tells it to link to image and not css  */
-    background-image: url(../images/tiled\ texture.jpg);
-    background-color: grey;
-    background-repeat:repeat;
+    background-color: #b7c3b6;
     /* content scrolls infront of background  */
-    background-attachment: fixed;
+    background-attachment:fixed;
     background-position: top;
     position: relative;
     padding-bottom: 20px;
 }
+
 #masthead{
     height: 100px;
-    background-image: url(../images/dino-eye.jpg);
+    background-image: url(../images/Absinthe.jpg);
     background-repeat: no-repeat;
     /* scale the image to fit  */
     background-size: cover;
@@ -98,3 +104,4 @@ background-color: blueviolet;
     right:0;
     bottom: 0;
 }
+
